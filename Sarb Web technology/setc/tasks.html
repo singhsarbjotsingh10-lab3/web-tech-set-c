@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tasks – Set C</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+</head>
+<body>
+<nav class="navbar">
+  <span class="nav-brand">SET C</span>
+  <div class="nav-links">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="profile.html" class="nav-link">Profile</a>
+    <a href="tasks.html" class="nav-link active">Tasks</a>
+  </div>
+</nav>
+
+<div class="tasks-layout">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="sidebar-title">All Tasks</h2>
+    <ul class="task-list" id="taskList"></ul>
+  </aside>
+
+  <!-- Main task area -->
+  <main class="task-main" id="taskMain">
+    <div class="task-placeholder">
+      <div class="placeholder-icon">⚡</div>
+      <p>Select a task from the left to begin</p>
+    </div>
+  </main>
+</div>
+
+<script src="main.js"></script>
+<script src="tasks.js"></script>
+</body>
+</html>
